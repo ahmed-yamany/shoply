@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  Shoply
+
+  Created by Ahmed Yamany on 10/01/2024.
+  
+*/
+
+"app.remeberme" = "Remember Me";
+
+"onboarding.button" = "Get Started";
+"onboarding.nike" = "Nike";
+"onboarding.the" = "The";
+"onboarding.awesome" = "Awesome";
+"onboarding.branded" = "Branded";
+"onboarding.shoes" = "Shoes";
+"onboarding.description" = "Enjoy your vacation with our super comfy shoes";
+//
+"login.header" = "Log in";
+"login.title" = "Welcome Back!";
+"login.subtitle" = "Enter password to get back your account!";
+"login.field.email.title" = "Email";
+"login.field.email.placeholder" = "enter your email";
+"login.field.password.title" = "Password";
+"login.field.password.placeholder" = "enter your Password";
+"login.button.login" = "Log in";
+"login.button.signup" = "Sign up";
+"login.button.forgotpassword" = "ForgotPassword";
+//
+"signup.header" = "Sign up";
+"signup.title" = "Create and Account";
+"signup.subtitle" = "Enter email address to create an account!";
+"signup.field.username.title" = "Username";
+"signup.field.username.placeholder" = "enter your username";
+"signup.field.email.title" = "Email";
+"signup.field.email.placeholder" = "enter your email";
+"signup.field.password.title" = "Password";
+"signup.field.password.placeholder" = "enter your Password";
+"signup.button.login" = "Log in";
+"signup.button.signup" = "Sign up";
+//
+"forgotpassword.header" = "FORGOT PASSWORD";
+"forgotpassword.title" = "Forgot your Password?";
+"forgotpassword.subtitle" = "Enter email address we’ll send you an email";
+"forgotpassword.field.email.title" = "Email";
+"forgotpassword.field.email.placeholder" = "appsharks@gmail.com";
+"forgotpassword.button.forgotpassword" = "Send Email";
+//
+"resetPassword.header" = "FORGOT PASSWORD";
+"resetPassword.title" = "Reset Password";
+"resetPassword.subtitle" = "Keep a password to easily login to your account";
+"resetPassword.field.password.title" = "Password";
+"resetPassword.field.password.placeholder" = "Password";
+"resetPassword.field.confirmpassword.title" = "Confirm Password";
+"resetPassword.field.confirmpassword.placeholder" = "Confirm New Password";
+"resetPassword.button.done" = "Done";
+//
+"home.title" = "Home";
+"home.welcome.title" = "Enjoy New Nike";
+"home.welcome.subtitle" = "Products";
+//
+"discover.title" = "Discover All";
+"discover.welcome.title" = "1001 Shoes Are";
+"discover.welcome.subtitle" = "Available";
