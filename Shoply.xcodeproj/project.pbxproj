@@ -39,6 +39,9 @@
 		EE6425302B528B5C008954BA /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = EE64252F2B528B5C008954BA /* GoogleSignIn */; };
 		EE6425322B528B5C008954BA /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EE6425312B528B5C008954BA /* GoogleSignInSwift */; };
 		EE6425352B5298BE008954BA /* UIColor+hexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6425342B5298BE008954BA /* UIColor+hexString.swift */; };
+		EE6425392B529CA6008954BA /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6425372B529CA6008954BA /* MenuView.swift */; };
+		EE64253A2B529CA6008954BA /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6425382B529CA6008954BA /* MenuViewModel.swift */; };
+		EE64253D2B52A271008954BA /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64253C2B52A271008954BA /* CGFloat.swift */; };
 		EE680C602B4FE9BC0042BA45 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE680C5D2B4FE9BC0042BA45 /* TabBarViewModel.swift */; };
 		EE680C612B4FE9BC0042BA45 /* TabBarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE680C5E2B4FE9BC0042BA45 /* TabBarType.swift */; };
 		EE680C622B4FE9BC0042BA45 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE680C5F2B4FE9BC0042BA45 /* TabBarView.swift */; };
@@ -117,6 +120,9 @@
 		EE64252A2B52855C008954BA /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		EE64252C2B528AA4008954BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EE6425342B5298BE008954BA /* UIColor+hexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hexString.swift"; sourceTree = "<group>"; };
+		EE6425372B529CA6008954BA /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		EE6425382B529CA6008954BA /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		EE64253C2B52A271008954BA /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
 		EE680C5D2B4FE9BC0042BA45 /* TabBarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
 		EE680C5E2B4FE9BC0042BA45 /* TabBarType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarType.swift; sourceTree = "<group>"; };
 		EE680C5F2B4FE9BC0042BA45 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -256,6 +262,23 @@
 			path = UIColor;
 			sourceTree = "<group>";
 		};
+		EE6425362B529C92008954BA /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				EE6425372B529CA6008954BA /* MenuView.swift */,
+				EE6425382B529CA6008954BA /* MenuViewModel.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		EE64253B2B52A268008954BA /* CGFloat */ = {
+			isa = PBXGroup;
+			children = (
+				EE64253C2B52A271008954BA /* CGFloat.swift */,
+			);
+			path = CGFloat;
+			sourceTree = "<group>";
+		};
 		EE680C5A2B4FE9680042BA45 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -390,6 +413,7 @@
 				EE680C652B4FEE880042BA45 /* Message */,
 				EE680C662B4FEE8D0042BA45 /* Profile */,
 				EE9BC0712B501AB400DD9D6A /* ProductDetails */,
+				EE6425362B529C92008954BA /* Menu */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -479,6 +503,7 @@
 		EEDA90392B4EA794005B2729 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				EE64253B2B52A268008954BA /* CGFloat */,
 				EE6425332B5298B2008954BA /* UIColor */,
 				EE6425292B52854A008954BA /* UserDefaults */,
 				EEDA90442B4EA7CE005B2729 /* UIApplication */,
@@ -816,6 +841,7 @@
 				EEDA90752B4EC768005B2729 /* LoginViewModel.swift in Sources */,
 				EEDA90432B4EA7BF005B2729 /* Router.swift in Sources */,
 				EEDA90622B4EABE4005B2729 /* HomeViewModel.swift in Sources */,
+				EE64253A2B529CA6008954BA /* MenuViewModel.swift in Sources */,
 				EE680C712B4FEEBC0042BA45 /* MessageView.swift in Sources */,
 				EE680C722B4FEEBC0042BA45 /* MessageViewModel.swift in Sources */,
 				EE680C692B4FEEB00042BA45 /* DiscoverView.swift in Sources */,
@@ -832,6 +858,7 @@
 				EE680C752B4FEEC10042BA45 /* ProfileView.swift in Sources */,
 				EE680C622B4FE9BC0042BA45 /* TabBarView.swift in Sources */,
 				EEDA904E2B4EA898005B2729 /* Strings+Generated.swift in Sources */,
+				EE64253D2B52A271008954BA /* CGFloat.swift in Sources */,
 				EE680C6D2B4FEEB70042BA45 /* WishlistView.swift in Sources */,
 				EE680C7A2B4FF4770042BA45 /* HostingView.swift in Sources */,
 				EE6425352B5298BE008954BA /* UIColor+hexString.swift in Sources */,
@@ -862,6 +889,7 @@
 				EEDA90482B4EA7E9005B2729 /* mainWindow.swift in Sources */,
 				EEDA90412B4EA7BF005B2729 /* AppRouter.swift in Sources */,
 				EEDA8FF02B4EA50E005B2729 /* AppDelegate.swift in Sources */,
+				EE6425392B529CA6008954BA /* MenuView.swift in Sources */,
 				EEDA90772B4EC77E005B2729 /* OnboardingView.swift in Sources */,
 				EEDA90852B4ED5D5005B2729 /* PrimaryToggleStyle.swift in Sources */,
 				EE64252B2B52855C008954BA /* UserDefaults.swift in Sources */,

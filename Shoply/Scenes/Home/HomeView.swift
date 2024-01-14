@@ -46,12 +46,13 @@ struct HomeView: View {
         }
         .productCellTabAction { product in
             router.present(UIHostingController(rootView: ProductDetailsView(product: product, router: router)))
-        }       
+        }
+        
     }
     
     private var showMenuButton: some View {
         Button {
-            
+            TabBarViewModel.shared.presentMenu = true
         } label: {
             Image(.iconMenu)
         }

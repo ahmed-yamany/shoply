@@ -32,6 +32,9 @@ struct DiscoverView: View {
                 Logger.log(error.localizedDescription, category: \.default, level: .fault)
             }
         }
+        .productCellTabAction { product in
+            router.present(UIHostingController(rootView: ProductDetailsView(product: product, router: router)))
+        } 
     }
     
     private var welcomeView: some View {

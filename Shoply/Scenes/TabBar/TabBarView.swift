@@ -11,6 +11,19 @@ struct TabBarView: View {
     @StateObject private var viewModel = TabBarViewModel.shared
     
     var body: some View {
+        ZStack {
+            content
+            
+            if viewModel.presentMenu {
+                viewModel.menuView()
+                    .ignoresSafeArea()
+                    .transition(.move(edge: .leading))
+            }
+        }
+        .animation(.easeInOut, value: viewModel.presentMenu)
+    }
+    
+    private var content: some View {
         ZStack(alignment: .bottom) {
             tabView
             TabBar(viewModel: viewModel)

@@ -12,7 +12,7 @@ class AuthManager: ObservableObject {
     @Published var isLogin: Bool = false
     
     init() {
-        do { try deleteUser()} catch {}
+//        do { try deleteUser()} catch {}
         getUser()
     }
     
